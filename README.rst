@@ -5,7 +5,7 @@ A collection of pypi-related magic commands (e.g. "%pip")
 
 To install, issue the following at the IPython prompt:
 
-    %install_ext https://github.com/stnbu/pypi_magics/pypi_magics.py
+    %install_ext https://raw.githubusercontent.com/stnbu/pypi_magics/master/pypi_magics.py
 
 After that, to load it:
 
