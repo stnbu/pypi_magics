@@ -61,5 +61,6 @@ class PyPiMagics(Magics):
         sys.stderr.write(err)
         sys.stderr.flush()
 
-ip = get_ipython()
-ip.register_magics(PyPiMagics)
+def load_ipython_extension(ip):
+    """Load the extension in IPython."""
+    ip.register_magics(PyPiMagics)
